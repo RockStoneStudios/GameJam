@@ -7,7 +7,7 @@ public class PoolEnemy : MonoBehaviour
     [SerializeField] Queue<GameObject> pool = new Queue<GameObject>();
     [SerializeField] List<GameObject> enemys = new List<GameObject>();
     [SerializeField] List<Transform> origins;
-    
+    // [SerializeField] GameObject parent;
     private Coroutine changeOfRound;
     private Coroutine createEnemys;
     [SerializeField] int numberOfRounds=1;
@@ -26,6 +26,7 @@ public class PoolEnemy : MonoBehaviour
     void AddToPool(int size){
         for(int i = 0; i< size; i++){
             GameObject prefab = enemys[Random.Range(0, enemys.Count)];
+            
             Vector3 currentRotation = prefab.transform.rotation.eulerAngles;
             currentRotation.y = 90;
             Transform spawnPoint = origins[Random.Range(0, origins.Count)];
@@ -34,6 +35,7 @@ public class PoolEnemy : MonoBehaviour
                 Vector3.zero,
                 prefab.transform.rotation = Quaternion.Euler(currentRotation)
             );
+            // enemy.transform.SetParent(parent.transform);
             enemy.SetActive(true);
             pool.Enqueue(enemy);
         }
