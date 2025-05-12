@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 119751633}
   - component: {fileID: 119751632}
   - component: {fileID: 119751631}
+  - component: {fileID: 119751634}
   m_Layer: 5
   m_Name: Escudo
   m_TagString: Untagged
@@ -201,7 +202,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 119751632}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 119751634}
+        m_TargetAssemblyTypeName: CambiarSpriteAlClick, Assembly-CSharp
+        m_MethodName: CambiarSprite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &119751632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,8 +235,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ead17c18307c0984fb0056d6af32171c, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -240,6 +253,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119751629}
   m_CullTransparentMesh: 1
+--- !u!114 &119751634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119751629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d284575677df6b0438e8e547cddf6847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nuevoSprite: {fileID: 21300000, guid: f66047cd39a93ee43891c5d6a2e15243, type: 3}
 --- !u!1 &143865888
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,8 +1102,6 @@ MonoBehaviour:
   buttonLuchon: {fileID: 1365093606}
   buttonBola: {fileID: 2027830085}
   buttonHuvito: {fileID: 2117970581}
-  "spriteCa\xF1onDefault": {fileID: 21300000, guid: ead17c18307c0984fb0056d6af32171c, type: 3}
-  "spriteCa\xF1onSelected": {fileID: 21300000, guid: f66047cd39a93ee43891c5d6a2e15243, type: 3}
 --- !u!1 &769445456
 GameObject:
   m_ObjectHideFlags: 0
@@ -1412,8 +1436,6 @@ MonoBehaviour:
   buttonLuchon: {fileID: 1365093606}
   buttonBola: {fileID: 2027830085}
   buttonHuvito: {fileID: 2117970581}
-  "spriteCa\xF1onDefault": {fileID: 21300000, guid: ead17c18307c0984fb0056d6af32171c, type: 3}
-  "spriteCa\xF1onSelected": {fileID: 21300000, guid: f66047cd39a93ee43891c5d6a2e15243, type: 3}
 --- !u!1 &980981805
 GameObject:
   m_ObjectHideFlags: 0
@@ -2376,6 +2398,7 @@ GameObject:
   - component: {fileID: 1365093608}
   - component: {fileID: 1365093607}
   - component: {fileID: 1365093606}
+  - component: {fileID: 1365093609}
   m_Layer: 5
   m_Name: Luchon
   m_TagString: Untagged
@@ -2446,7 +2469,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1365093607}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1365093609}
+        m_TargetAssemblyTypeName: CambiarSpriteAlClick, Assembly-CSharp
+        m_MethodName: CambiarSprite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1365093607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2467,8 +2502,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ead17c18307c0984fb0056d6af32171c, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2485,6 +2520,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1365093604}
   m_CullTransparentMesh: 1
+--- !u!114 &1365093609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365093604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d284575677df6b0438e8e547cddf6847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nuevoSprite: {fileID: 21300000, guid: f66047cd39a93ee43891c5d6a2e15243, type: 3}
 --- !u!1 &1456872848
 GameObject:
   m_ObjectHideFlags: 0
@@ -2903,7 +2951,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1629258730}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1629258732}
+        m_TargetAssemblyTypeName: CambiarSpriteAlClick, Assembly-CSharp
+        m_MethodName: CambiarSprite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1629258730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2951,16 +3011,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1629258727}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c631c7f1b4877e4e83f8ab2a760c102, type: 3}
+  m_Script: {fileID: 11500000, guid: d284575677df6b0438e8e547cddf6847, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "buttonCa\xF1on": {fileID: 0}
-  buttonEscudo: {fileID: 0}
-  buttonLuchon: {fileID: 0}
-  buttonBola: {fileID: 0}
-  buttonHuvito: {fileID: 0}
-  "spriteCa\xF1onDefault": {fileID: 21300000, guid: ead17c18307c0984fb0056d6af32171c, type: 3}
-  "spriteCa\xF1onSelected": {fileID: 21300000, guid: f66047cd39a93ee43891c5d6a2e15243, type: 3}
+  nuevoSprite: {fileID: 21300000, guid: f66047cd39a93ee43891c5d6a2e15243, type: 3}
 --- !u!1 &1741283083
 GameObject:
   m_ObjectHideFlags: 0
@@ -3500,6 +3554,7 @@ GameObject:
   - component: {fileID: 2027830084}
   - component: {fileID: 2027830083}
   - component: {fileID: 2027830085}
+  - component: {fileID: 2027830086}
   m_Layer: 5
   m_Name: Bola
   m_TagString: Untagged
@@ -3547,8 +3602,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ead17c18307c0984fb0056d6af32171c, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3608,7 +3663,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2027830083}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2027830086}
+        m_TargetAssemblyTypeName: CambiarSpriteAlClick, Assembly-CSharp
+        m_MethodName: CambiarSprite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2027830086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027830081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d284575677df6b0438e8e547cddf6847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nuevoSprite: {fileID: 21300000, guid: f66047cd39a93ee43891c5d6a2e15243, type: 3}
 --- !u!1 &2089876424
 GameObject:
   m_ObjectHideFlags: 0
@@ -3713,6 +3793,7 @@ GameObject:
   - component: {fileID: 2117970583}
   - component: {fileID: 2117970582}
   - component: {fileID: 2117970581}
+  - component: {fileID: 2117970585}
   m_Layer: 5
   m_Name: Huevito
   m_TagString: Untagged
@@ -3763,7 +3844,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2117970582}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2117970585}
+        m_TargetAssemblyTypeName: CambiarSpriteAlClick, Assembly-CSharp
+        m_MethodName: CambiarSprite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2117970582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3784,8 +3877,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ead17c18307c0984fb0056d6af32171c, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3822,6 +3915,19 @@ RectTransform:
   m_AnchoredPosition: {x: -209.8, y: -53.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2117970585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117970580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d284575677df6b0438e8e547cddf6847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nuevoSprite: {fileID: 21300000, guid: f66047cd39a93ee43891c5d6a2e15243, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
