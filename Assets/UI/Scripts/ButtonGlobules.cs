@@ -1,28 +1,32 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.UI;
 
-public class GlobulesPool : MonoBehaviour
+public class ButtonGlobules : MonoBehaviour
 {
-
     public Button buttonCañon;
     public Button buttonEscudo;
     public Button buttonLuchon;
+    public Button buttonBola;
+    public Button buttonHuvito;
+
+    
+    private Image imagenButton;
+    private bool alternado = false;
     private Button selectedButton;
     private Color defaultColor  = Color.white;
     private Color selectedColor = Color.red;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    
-    
-    void Start()
-    {
-        buttonCañon.onClick.AddListener(() => onButtonClick(buttonCañon, "cañon"));
-        buttonEscudo.onClick.AddListener(() => onButtonClick(buttonEscudo, "Escudo"));
-        buttonLuchon.onClick.AddListener(() => onButtonClick(buttonLuchon, "luchon"));   
-    }
 
+
+   void Start()
+{
+    buttonCañon.onClick.AddListener(() => onButtonClick(buttonCañon, "cañon"));
+    buttonEscudo.onClick.AddListener(() => onButtonClick(buttonEscudo, "Escudo"));
+    buttonLuchon.onClick.AddListener(() => onButtonClick(buttonLuchon, "luchon"));
+    buttonBola.onClick.AddListener(() => onButtonClick(buttonBola, "Bola"));
+    buttonHuvito.onClick.AddListener(() => onButtonClick(buttonHuvito, "Huevito"));
+}
     // Update is called once per frame
     void Update()
     {
@@ -53,5 +57,6 @@ public class GlobulesPool : MonoBehaviour
         }
     }
 
+    
     
 }
