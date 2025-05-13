@@ -8,7 +8,7 @@ public class ButtonGlobules : MonoBehaviour
     public Button buttonLuchon;
     public Button buttonBola;
     public Button buttonHuvito;
-    private Button no;
+    
 
     
     private Image imagenButton;
