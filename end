@@ -1,0 +1,267 @@
+[33mcommit db530dd9acb34a59b06bea29457ee16b6893100b[m[33m ([m[1;31morigin/Marlon[m[33m, [m[1;32mmain[m[33m, [m[1;32mMarlon[m[33m)[m
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Mon May 12 22:07:14 2025 -0500
+
+    Night upload 10 pm May 12
+
+[33mcommit 1cdb0503c0cb5bb632a8ed0d00e3342eac9520f9[m
+Merge: 46da046 47235fb
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Mon May 12 14:05:42 2025 -0500
+
+    Merge branch 'Marlon'
+
+[33mcommit 47235fbdbdd53759aefdbebdb3c1f74f69b8a8b4[m
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Mon May 12 14:05:25 2025 -0500
+
+    3rd Update May 12
+    
+    Candida model finished with animations and controllers ready on Unity
+
+[33mcommit 46da0463b3e9ad2e57799167dc1e78d203d62d57[m
+Merge: ed9ac15 3840179
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Mon May 12 11:38:09 2025 -0500
+
+    Merge pull request #6 from RockStoneStudios/Marlon
+    
+    Marlon / Already confirmed in Desktop
+
+[33mcommit 3840179cf7a04ca06b6ad6647853ab8ca2385554[m
+Merge: 0b87859 ed9ac15
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Mon May 12 11:36:48 2025 -0500
+
+    Merge branch 'main' into Marlon
+
+[33mcommit 0b87859630c964c6b1b209f2605564ea361b2b71[m
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Mon May 12 11:36:18 2025 -0500
+
+    2nd Update May 12
+    
+    Last Virus Model partially finished with animations.
+    
+    Created Sound Folder with sub folders and uploaded some CC0 music and sound effects.
+
+[33mcommit ed9ac150f1a52f5c55dcce16298bc3f5f5923da9[m
+Merge: f4a5371 746a64b
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Mon May 12 11:03:39 2025 -0500
+
+    Merge branch 'start-interface'
+
+[33mcommit 746a64b37d15efd12f9f335b9f2011e97c61ac63[m
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Mon May 12 11:02:52 2025 -0500
+
+    Animation Globules
+
+[33mcommit f4a537153cd0ad090beffb9a3776afed08d30648[m
+Merge: 92e5b3d bedbf9a
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Mon May 12 10:10:49 2025 -0500
+
+    Merge branch 'start-interface'
+
+[33mcommit bedbf9a6a0346dc4e92a2f569f96a9ba5c5c4864[m
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Mon May 12 10:08:41 2025 -0500
+
+    Test
+
+[33mcommit 92e5b3dfac2bd307d70c90314e8066c3cfa58b3c[m
+Merge: ededc45 f9dee18
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Mon May 12 10:04:13 2025 -0500
+
+    Merge branch 'start-interface'
+
+[33mcommit f9dee18c2d83987b666523c1c878d3055220861e[m
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Mon May 12 09:59:58 2025 -0500
+
+    Button Pause
+
+[33mcommit ededc45b6a17d02c819cafbfc2d7a6e11945e6ba[m
+Merge: 5c785bb 4fc8d38
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Mon May 12 09:49:27 2025 -0500
+
+    Merge pull request #4 from RockStoneStudios/Marlon
+    
+    Marlon / Update with Animations
+
+[33mcommit 4fc8d38fad28c01b03e2eda676b738a332c2eddb[m
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Mon May 12 09:44:07 2025 -0500
+
+    Update May 12
+    
+    4 enemies with animations ready to use
+    Modified Script PoolEnemy.
+
+[33mcommit e4ee71aae696fc2106e4b3917e94e25c6ce06166[m
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Sun May 11 21:18:11 2025 -0500
+
+    Buttom select and animation virus
+    
+    Button select change, when you click, and the virus animation is in animation folder.
+
+[33mcommit 68a443dbbce0f3ddc6f6b3faef1e014994beb68f[m
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Sun May 11 17:47:27 2025 -0500
+
+    Test Button of globles UI
+
+[33mcommit 0b0542794dd917ccd33d4b5568e359f629bebca9[m
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Sun May 11 16:34:28 2025 -0500
+
+    Final details of Menu
+
+[33mcommit 0c99d288f1ae5588fa9041811542cf007dfd87b6[m
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Sun May 11 12:35:28 2025 -0500
+
+    Credits Bottom
+
+[33mcommit 75ed85468d6919993ade08e4e877e47d22b46a8e[m
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Sun May 11 12:27:54 2025 -0500
+
+    How to play Bottom
+
+[33mcommit 15d31a50dfd2ce73e81f679cfe850f9d22318815[m
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Sun May 11 11:17:23 2025 -0500
+
+    Button-Play
+    
+    Script for the button play.
+
+[33mcommit 5c785bbf1d4b76e683f594154f57158b82c527e7[m
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Sat May 10 22:47:11 2025 -0500
+
+    Delete Assets/TutorialInfo directory
+    
+    Was giving error when running the project in Unity at some point, when confirming with Omar he stated these files were not necessary. Tried to run on Unity without them and it ran normally. Proceed to delete.
+
+[33mcommit 3c1aea4b959dfba4542903182f23bf08c39270dd[m
+Merge: 3b28287 39c9938
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Sat May 10 20:44:55 2025 -0500
+
+    Merge branch 'main' of https://github.com/RockStoneStudios/GameJam
+
+[33mcommit 39c9938b58dab6eb0d9565b31e54e94fd7c7c320[m[33m ([m[1;31morigin/SpawnerPatogenos[m[33m)[m
+Author: OMAR <rockstonestudios666@gmail.com>
+Date:   Sat May 10 20:37:12 2025 -0500
+
+    Implementacion de patogenos
+
+[33mcommit e74ed5609df36212004a2289df9132a51d0dadf2[m
+Merge: b7e4cb7 7dc3cc5
+Author: RockStoneStudios <68566212+RockStoneStudios@users.noreply.github.com>
+Date:   Sat May 10 19:45:06 2025 -0500
+
+    Merge pull request #3 from RockStoneStudios/UI_Manu
+    
+    UI manu
+
+[33mcommit b7e4cb7b885ad2f7ee66dfc385a966bb51a00fda[m
+Merge: 096ea17 a4ce972
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Sat May 10 19:35:36 2025 -0500
+
+    Merge pull request #2 from RockStoneStudios/Marlon
+    
+    Upload of Colera Model
+
+[33mcommit 3b2828701633d947bd80d37a2dea40a356c0e4bf[m
+Merge: 096ea17 a4ce972
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Sat May 10 19:31:36 2025 -0500
+
+    Merge branch 'Marlon'
+
+[33mcommit a4ce972e4d0dd1b185f341ebe2d8a2ed6e12cc4c[m
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Sat May 10 19:30:25 2025 -0500
+
+    Upload of Colera Model
+    
+    Uploading Colera Model for Manu to download and try to animate.
+
+[33mcommit 7dc3cc560f2643babe89f50b3c489b4d1d051115[m[33m ([m[1;31morigin/UI_Manu[m[33m)[m
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Sat May 10 19:21:30 2025 -0500
+
+    Megering Branch
+
+[33mcommit 6f8d90537999cf80491ed6d532be79300a528f97[m
+Merge: 5fa739c 096ea17
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Sat May 10 19:20:48 2025 -0500
+
+    Merge branch 'main' into UI_Manu
+
+[33mcommit 096ea1741a88f41fac7dd4d4fe291d8f2fc83bf2[m
+Merge: d7afe93 18e4e10
+Author: RockStoneStudios <68566212+RockStoneStudios@users.noreply.github.com>
+Date:   Sat May 10 17:34:30 2025 -0500
+
+    Merge pull request #1 from RockStoneStudios/Marlon
+    
+    Upload 3 More Viruses Models
+
+[33mcommit 18e4e102557098ed5f7929d288dc7f6aef175201[m
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Sat May 10 17:34:05 2025 -0500
+
+    Modification to test Merge
+    
+    Will attempt a new merge.
+
+[33mcommit 0eb6bd8ba17c264836a035bf36a18989f74f95a0[m
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Sat May 10 15:54:05 2025 -0500
+
+    Upload 3 More Viruses Models
+    
+    3 more enemy models added alongside their textures and materials.
+
+[33mcommit 5fa739ce4b564264ff77b7e7593bcb35ff7a95f2[m
+Author: Mgdz18 <mgdz_18@hotmail.com>
+Date:   Sat May 10 13:04:09 2025 -0500
+
+    Create_Scene_UI
+
+[33mcommit d7afe934ac510ab94095535536dbbfdb42d6ae9b[m
+Author: Zetagamingx <93229927+Zetagamingx@users.noreply.github.com>
+Date:   Sat May 10 11:53:18 2025 -0500
+
+    Upload BattleTable Model
+    
+    Updating branch to have the 3d model and texture for the battle table of the level.
+
+[33mcommit 7ed824322d6abf1f770c94e9219a5e40c1d9f9cf[m
+Author: OMAR <rockstonestudios666@gmail.com>
+Date:   Fri May 9 19:10:10 2025 -0500
+
+    Inicio de Proyecto/4Particulas
+
+[33mcommit 48f0dc3302e5a1e03f017e00a935d2077cb68c8e[m
+Author: RockStoneStudios <68566212+RockStoneStudios@users.noreply.github.com>
+Date:   Fri May 9 16:58:17 2025 -0500
+
+    Create README.md
+
+[33mcommit e2bab4571adfca0671b294bab71561e17d50f492[m
+Author: RockStoneStudios <68566212+RockStoneStudios@users.noreply.github.com>
+Date:   Fri May 9 15:14:38 2025 -0500
+
+    Initial commit
