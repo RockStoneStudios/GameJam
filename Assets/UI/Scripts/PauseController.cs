@@ -13,7 +13,7 @@ public class PauseController : MonoBehaviour
     void Start()
     {
         // Make sure the game starts in the correct state
-        UpdateState();
+        // UpdateState();
     }
 
     public void TogglePause()
