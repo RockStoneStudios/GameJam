@@ -5,7 +5,7 @@ public class LymphoBSkill : MonoBehaviour
 {
     public float skillDuration = 5f;
     public float skillCooldown = 10f;
-
+    public int cost = 3;
     private BulletShot shooter;
     
 
@@ -30,8 +30,15 @@ public class LymphoBSkill : MonoBehaviour
             {
                 if (hit.transform == transform)
                 {
-                    float boostedInterval = shooter.shootInterval / 2f;
-                    GlobalSkillManager.TryActivateSkill(this, skillDuration, skillCooldown, boostedInterval);
+                    if (ResourceManager.Instance.TrySpend(cost))
+                    {
+                        float boostedInterval = shooter.shootInterval / 2f;
+                        GlobalSkillManager.TryActivateSkill(this, skillDuration, skillCooldown, boostedInterval);
+                    }
+                    else
+                    {
+                        Debug.Log("Not enough energy to activate skill.");
+                    }
                 }
             }
         }
