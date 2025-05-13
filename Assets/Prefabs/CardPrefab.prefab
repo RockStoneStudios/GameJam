@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02c5b370d68b68740af67476e9da4b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cost: 25
   cardButton: {fileID: 0}
 --- !u!114 &5972534597393465606
 MonoBehaviour:
@@ -61,7 +62,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   placementMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
 --- !u!114 &1236683714909563475
 MonoBehaviour:
   m_ObjectHideFlags: 0
