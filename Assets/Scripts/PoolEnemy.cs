@@ -27,7 +27,7 @@ public class PoolEnemy : MonoBehaviour
         for(int i = 0; i< size; i++){
             GameObject prefab = enemys[Random.Range(0, enemys.Count)];
             Vector3 currentRotation = prefab.transform.rotation.eulerAngles;
-            currentRotation.y = 90;
+            
             Transform spawnPoint = origins[Random.Range(0, origins.Count)];
             GameObject enemy = Instantiate(
                 prefab,
